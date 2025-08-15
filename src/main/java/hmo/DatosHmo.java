@@ -33,6 +33,7 @@ public class DatosHmo {
                     conteoCodigos.put(codigoPostal,conteoCodigos.getOrDefault(codigoPostal, 0) + 1);
                 }
             }
+
             // con el arraylist estoy ordenando los codigos postales
             List<String> codigosOrdenados = new ArrayList<>(conteoCodigos.keySet());
             Collections.sort(codigosOrdenados);
